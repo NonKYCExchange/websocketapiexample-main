@@ -1,0 +1,15 @@
+{
+  "name": "apitestws",
+  "version": "1.0.0",
+  "description": "",
+  "main": "wsapiTest.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sleep-promise": "^9.1.0",
+    "ws": "^8.10.0"
+  }
+}
