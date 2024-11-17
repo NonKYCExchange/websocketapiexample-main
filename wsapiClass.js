@@ -6,13 +6,13 @@ const WebSocket = require( 'ws' );
 
 module.exports = class NonKycSocketClient extends EventEmitter {
 
-    constructor( apiKey, secretKey, wssHost = "wss://ws.nonkyc.io") {
+    constructor( apiKey, secretKey, wssHost = "wss://api.nonkyc.io") {
     
     	super();
     	
         this._apiKey = apiKey;
         this._secretKey = secretKey;
-        this._wssHost = wssHost || "wss://ws.nonkyc.io";
+        this._wssHost = wssHost || "wss://api.nonkyc.io";
 
         this._wss = null;
         this._pingTimeout = null;
